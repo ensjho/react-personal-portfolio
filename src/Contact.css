@@ -1,0 +1,27 @@
+.contact-container {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.contact-details{
+ padding-top: 10px;
+}
+
+.contact-details-container {
+ text-align: left;
+ margin-top: 10px;
+}
+
+.contact-heading {
+ font-weight:500;
+ font-size:calc(1em + 1vw);
+ color:#0090DA;
+ text-align: Right;
+ margin-right: 20px;
+}
+
+.contact-logos{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,33 @@
+
+.Navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding-right: 5px;
+  display: flex;
+}
+
+.Navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: calc(0.5em + 0.5vw);
+}
+
+.Navbar a:hover {
+  color:  #0090DA;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* 
+.Navbar a.active {
+  color: #0090DA;
+  text-shadow: 20px;
+} */
+
+.navbar-numbers{
+  color: #0090DA;
+  padding-right: calc(0.2em + 0.2vw) ;
+}
+

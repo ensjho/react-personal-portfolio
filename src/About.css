@@ -1,0 +1,49 @@
+ .About-container {
+   margin-top: 200px;
+ }
+
+.about-heading{
+  font-weight:500;
+  font-size:calc(1em + 1vw);
+  color:#0090DA;
+  text-align: Right;
+  margin-right: 20px;
+}
+
+.about-description{
+  text-align: left;
+  margin-top: 7px;
+}
+
+.about-description-hobby {
+  margin-top:calc(0.5em + 0.5vw) ;
+}
+
+
+/**CSS PORTION for skills */
+
+.skills-details{
+  padding-top: 10px;
+}
+
+.skills-details-container{
+  text-align: left;
+  margin-top: 7px;
+}
+
+.skills-container{
+  margin-top: 150px;
+}
+
+.skills-heading{
+  font-weight:500;
+  font-size:calc(1em + 1vw);
+  color:#0090DA;
+  text-align: Right;
+  margin-right: 20px;
+}
+
+.button-resume{
+  text-align: center;
+  margin-top: 50px;
+}
