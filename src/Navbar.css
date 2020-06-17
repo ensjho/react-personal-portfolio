@@ -21,8 +21,7 @@
 .active:hover {
   text-decoration: none;
   cursor: pointer;
-  color: #0090DA;
-
+  font-size: calc(0.6em + 0.6vw);
 }
 
 

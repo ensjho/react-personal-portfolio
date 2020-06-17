@@ -2,7 +2,6 @@ import React from "react";
 import "./About.css";
 import { Row, Col, Button } from 'react-bootstrap'
 import resume from "./img/resume.pdf"
-import Emoji from 'a11y-react-emoji'
 
 function About() {
   return (
