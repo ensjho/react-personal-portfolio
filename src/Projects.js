@@ -1,10 +1,9 @@
 import React from "react";
 import "./Projects.css";
-import { Row, Col, Card, Button, Carousel } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap'
 import warbler from "./img/warbler.gif"
 import jobly from "./img/jobly.gif"
 import microblog from "./img/Microblog.gif"
-import Emoji from 'a11y-react-emoji'
 
 function Projects() {
   return (
