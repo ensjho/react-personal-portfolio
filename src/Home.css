@@ -1,14 +1,14 @@
 .eric-logo{
   width: 50%;
   height: 50%;
-  margin-top: calc(5em + 5vw);
+  margin-top: calc(6em + 6vw);
 }
 
 
 .scroll {
   animation: move 1s infinite alternate;
   margin-top: 10%;
-  height: calc(3em);
+  height: calc(5em);
 }
 
 @keyframes move {

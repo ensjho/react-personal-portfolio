@@ -12,20 +12,20 @@ function Navbar() {
 
   return (
     <Nav className="Navbar justify-content-end" id="top" >
-      <Link className="goup"
-        activeClassName="active"
+      <Link
+        className="active"
         to="about-anchor" smooth={true}>
         <span className="navbar-numbers">01.</span>
           About
       </Link>
-      <Link className="goup"
-        activeClassName="active"
+      <Link
+        className="active"
         to="projects-anchor" smooth={true}>
         <span className="navbar-numbers">02.</span>
           Projects
       </Link>
-      <Link className="goup"
-        activeClassName="active"
+      <Link
+        className="active"
         to="contact-anchor" smooth={true}>
         <span className="navbar-numbers">03.</span>
           Contact

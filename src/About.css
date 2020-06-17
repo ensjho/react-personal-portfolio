@@ -1,5 +1,6 @@
  .About-container {
-   margin-top: 200px;
+   margin-top: 300px;
+   padding-top: 100px;
  }
 
 .about-heading{
@@ -13,6 +14,7 @@
 .about-description{
   text-align: left;
   margin-top: 7px;
+  font-size: 20px;
 }
 
 .about-description-hobby {
@@ -29,6 +31,7 @@
 .skills-details-container{
   text-align: left;
   margin-top: 7px;
+  font-size: 20px;
 }
 
 .skills-container{
