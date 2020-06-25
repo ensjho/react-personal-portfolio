@@ -1,27 +1,10 @@
-
-.Navbar {
-  overflow: hidden;
-  padding-right: 5px;
-  display: flex;
-}
-
-.navbar-numbers{
-  color: #0090DA;
-  padding-right: calc(0.2em + 0.2vw) ;
-}
-
-.active { 
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: calc(0.6em + 0.6vw);
-}
-
-.active:hover {
-  text-decoration: none;
+ .nav-options:hover {
   cursor: pointer;
-  font-size: calc(0.6em + 0.6vw);
-}
+ }
 
 
+@media (min-width: 768px) {
+  .nav-dis {
+    display: none;
+  }
+ }

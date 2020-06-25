@@ -1,52 +1,78 @@
- .About-container {
-   margin-top: 300px;
-   padding-top: 100px;
- }
-
-.about-heading{
+.about-heading {
+  font-size:calc(3vh);
   font-weight:500;
-  font-size:calc(1em + 1vw);
   color:#0090DA;
-  text-align: Right;
-  margin-right: 20px;
-}
-
-.about-description{
   text-align: left;
-  margin-top: 7px;
-  font-size: 20px;
 }
 
-.about-description-hobby {
-  margin-top:calc(0.5em + 0.5vw) ;
+.about-anchor {
+  color: white;
+  width: 100%;
+  height: 25vh;
 }
 
+.about-text {
+  text-align: left;
+}
 
 /**CSS PORTION for skills */
 
-.skills-details{
-  padding-top: 10px;
+.skills-anchor {
+  color: white;
+  width: 100%;
+  height: 25vw;
 }
 
-.skills-details-container{
-  text-align: left;
-  margin-top: 7px;
-  font-size: 20px;
-}
-
-.skills-container{
-  margin-top: 150px;
+.skills-section {
+  margin-top: calc(5vh + 4vw);
 }
 
 .skills-heading{
+  font-size:calc(3vh);
   font-weight:500;
-  font-size:calc(1em + 1vw);
   color:#0090DA;
-  text-align: Right;
-  margin-right: 20px;
+  text-align: left;
 }
 
-.button-resume{
-  text-align: center;
-  margin-top: 50px;
-}
+@media (min-width: 768px) {
+
+  .about-anchor {
+    color: white;
+    width: 100%;
+    height: 4vw;
+  }
+
+  .skills-anchor {
+    color: white;
+    width: 100%;
+    height: 4vw;
+  }
+
+  .about-heading {
+    color:#0090DA;
+    font-weight: 500;
+    text-align: Right;
+  }
+
+  .about-text {
+    text-align: left;
+  }
+
+  .skills-heading{
+    font-weight:500;
+    color:#0090DA;
+    text-align: Right;
+  }
+
+ }
+
+
+ @media (max-width: 575.98px) { 
+
+  .skills-anchor {
+    color: white;
+    width: 100%;
+    height: 50vw;
+  }
+  
+ }
